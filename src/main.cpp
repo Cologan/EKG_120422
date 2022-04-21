@@ -99,7 +99,7 @@ void loop() {                                           // put your main code he
 void fake_data(){                                       // Fake data for testing 
   int factor =4;
   dataarray[Headindex]=((i++)/factor)-32;                 //this creates a sawtooth signal
-  dataarray[Headindex]=100*(abs((i++ % 12) - 6));         //This creates a Triangular Signal
+  //dataarray[Headindex]=100*(abs((i++ % 12) - 6));         //This creates a Triangular Signal
   i=i%(64*factor);                                        //Index Reset sawtooth signal
   //i=i%100000;                                           //Index Reset Triangular Signal
   Headindex++;                                            //write index
